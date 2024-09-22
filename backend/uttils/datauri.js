@@ -20,7 +20,6 @@ const path = require('path');
 
 const getDataUri = (file) => {
   const parser = new DataUriParser();
-  console.log('File object:', file);
   if (!file || !file.originalname) {
     console.error('File object is missing or does not have an originalname property');
     return null; // or throw an error

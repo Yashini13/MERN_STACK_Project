@@ -6,13 +6,11 @@ const updateCompany = async (req, res) =>{
         const {name, description, website, location } = req.body;
 
         const file = req.file;
-        console.log(file);
         
         //clodinary ayega
         const fileUri = getDataUri(file);
 
         const cloudResponse = await cloudinary.uploader.upload(fileUri.content)
-        console.log(cloudResponse);
 
         const logo = cloudResponse.secure_url;
 

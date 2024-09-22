@@ -33,7 +33,6 @@
 //     }
 //     // const submitHandler = async (e) =>{
 //     //   e.preventDefault();
-//     //   console.log(input);
 //     // }
 //     const submitHandler = async (e) => {
 //         e.preventDefault();
