@@ -13,7 +13,7 @@ const applicationRoute = require('./routes/application.route.js');
 
 dotenv.config({});
 connectDb();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const app = express();
 // mongodb+srv://yashupar81:2T1fh5Y5az06wXbD@cluster0.lfnnqdd.mongodb.net/
 
